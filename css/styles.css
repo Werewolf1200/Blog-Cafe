@@ -278,18 +278,8 @@ img {
     gap: 1rem;
 }
 
-@media (min-width: 768px) {
-    .formulario {
-        padding: 5rem;
-    }
-
-    .campo {
-        gap: 2rem;
-    }
-}
-
 .campo__label {
-    flex: 0 0 9rem;
+    flex: 0 0 7rem;
     text-align: right;
 }
 
@@ -300,4 +290,18 @@ img {
 
 .campo__field--textarea {
     height: 20rem;
+}
+
+@media (min-width: 768px) {
+    .formulario {
+        padding: 5rem;
+    }
+
+    .campo {
+        gap: 2rem;
+    }
+
+    .campo__label {
+        flex: 0 0 9rem;
+    }
 }
